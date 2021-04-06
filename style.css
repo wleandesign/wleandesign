@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
   }
-@import url(//db.onlinewebfonts.com/c/f798566a9c8b6647bf0a5b1224f97d83?family=Bebas+Kai);
-@font-face {font-family: "Bebas Kai"; src: url("//db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.eot"); src: url("//db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.woff") format("woff"), url("//db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f798566a9c8b6647bf0a5b1224f97d83.svg#Bebas Kai") format("svg"); }
 body{
     background-color:  #111111;
     background-attachment: fixed;
