@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color:  #111111;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.headd{
+    text-align: center;
+}
+nav{
+    background-color: #111;
+    margin: 50px;
+    padding: 0;
+    font-size: 1vw;
+}
+nav ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    font: bold;
+    font-size: 1vw;}
+li{
+    font-family: 'Bebas Kai', sans-serif;
+    display: inline; 
+    margin: 10px;
+    padding: 0;
+}
+li pre{
+    font-family: 'Bebas Kai', sans-serif;
+    font-size: 2vw;
+    display: inline;
+    color: white;
+    margin: 0 0 0 35vw;
+}
+li a:link{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: #ffffffc2;
+}
+a:visited{
+    color:#818181;
+}
+footer p{
+    font-family: 'Bebas Kai', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+    color: gray;
+}
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fafafa;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    font-family: 'Bebas Kai', sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+@media screen and (max-width: 700px) {
+    nav,nav ul,li{
+        display: block;
+    }
+}
